@@ -1,0 +1,1 @@
+// Data access placeholder for the REST API. SQL is kept in controllers for this compact demo.

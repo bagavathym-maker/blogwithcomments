@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Story — Inkly</title><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="create">
+<div id="toast" class="toast"></div>
+<header class="navbar"><a class="brand" href="index.html"><span class="brand-mark">I</span> Inkly</a><nav><a href="index.html">Home</a><a href="dashboard.html">Dashboard</a></nav></header>
+<main class="editor-shell section"><div class="editor-head"><div><span class="eyebrow" id="editorEyebrow">CREATE A STORY</span><h1 id="editorTitle">Turn an idea into a story.</h1></div><a href="dashboard.html" class="btn btn-secondary">Cancel</a></div>
+<form id="postForm" class="editor-form"><div class="editor-main"><input id="postTitle" class="title-input" type="text" placeholder="Give your story a title..." maxlength="120" required><textarea id="postExcerpt" class="excerpt-input" placeholder="A short description that makes readers curious..." maxlength="220" required></textarea><textarea id="postContent" class="content-input" placeholder="Start writing here..." minlength="40" required></textarea></div>
+<aside class="editor-side"><label>Category<select id="postCategory" required><option>Artificial Intelligence</option><option>Programming</option><option>Student Life</option><option>Web Development</option><option>Machine Learning</option><option>Career</option></select></label><label>Reading time<select id="postReadTime"><option>3 min read</option><option>5 min read</option><option>7 min read</option><option>10 min read</option></select></label><div class="tip"><b>Writing tip</b><p>Lead with a clear idea, use short paragraphs, and give readers something practical to take away.</p></div><button class="btn btn-primary full" type="submit" id="savePostBtn">Publish story →</button></aside></form></main>
+<script src="js/app.js"></script><script src="js/auth.js"></script><script src="js/posts.js"></script></body></html>

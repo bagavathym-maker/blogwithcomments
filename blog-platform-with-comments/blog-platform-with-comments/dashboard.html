@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Inkly</title><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="dashboard">
+<div id="toast" class="toast"></div>
+<header class="navbar"><a class="brand" href="index.html"><span class="brand-mark">I</span> Inkly</a><button class="menu-toggle" id="menuToggle">☰</button><nav id="mainNav"><a href="index.html">Home</a><a class="active" href="dashboard.html">Dashboard</a><a class="nav-cta" href="create-post.html">+ New story</a><button class="link-button" data-action="logout">Logout</button></nav></header>
+<main class="dashboard section">
+  <div class="dashboard-top"><div><span class="eyebrow">YOUR WORKSPACE</span><h1>Good to see you, <span id="dashName">writer</span>.</h1><p class="muted">Manage your stories and keep building your publishing habit.</p></div><a class="btn btn-primary" href="create-post.html">+ Create post</a></div>
+  <div class="metric-grid"><div class="metric"><span>Stories</span><strong id="myPostCount">0</strong></div><div class="metric"><span>Comments received</span><strong id="myCommentCount">0</strong></div><div class="metric"><span>Total words</span><strong id="myWordCount">0</strong></div></div>
+  <div class="section-heading dashboard-heading"><div><span class="eyebrow">PUBLISHED BY YOU</span><h2>Your stories</h2></div></div>
+  <div id="myPosts" class="post-list"></div>
+</main>
+<script src="js/app.js"></script><script src="js/auth.js"></script><script src="js/posts.js"></script><script src="js/comments.js"></script></body></html>

@@ -1,0 +1,1 @@
+// Authentication middleware placeholder. Add JWT/session validation when connecting a production client.
